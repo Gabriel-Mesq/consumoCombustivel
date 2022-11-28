@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'HyliaSerif';
+    src: url('fonts/HyliaSerif.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: rgb(255, 130, 40);
+    font-family: 'HyliaSerif';
+}
+
+header .inner {
+    width: 60%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header .left-side{
+    float: left;
+    height: 100%;
+    margin: 16px 0px;
+    color: white;
+
+}
+
+header .rigth-side  {
+    float: right;
+    margin: 16px 0px;
+    font-size: 40px;
+}
+
+header .rigth-side a{
+    color: white;
+    transition: 0.2s;
+}
+
+header .rigth-side a:hover{
+    color: blueviolet;
+}
+
+body{
+    background-color: blueviolet;
+    width: 100%;
+}
+
+.box{
+    
+    /* Centraliza horizontalmente e verticalmente a div */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: rgb(255, 130, 40);
+    width: 880px;
+    height: 300px;
+    border-radius: 15px;
+    padding: 4%;
+    text-align: center;
+}
+
+.p1{
+    width: 33%;
+    margin: 0 auto;
+    float: left;
+}
+
+.p2{
+    width: 33%;
+    margin: 0 auto;
+    float: left;
+}
+
+.p3{
+    width: 33%;
+    margin: 0 auto;
+    float: right;
+}
+
+#i1, #i2, #i3{
+    margin: 15px 58px;
+    height: 32px;
+    border-radius: 8px;
+}
+
+button{
+    margin: 50px;
+    height: 60px;
+    width: 120px;
+    border-radius: 8px;
+    font-family: 'HyliaSerif';
+    font-size: larger;
+}
