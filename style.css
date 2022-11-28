@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'HyliaSerif';
-    src: url('HyliaSerif.otf');
+    src: url('fonts/HyliaSerif.otf');
 }
 
 * {
@@ -50,7 +50,6 @@ header .rigth-side a:hover{
 
 body{
     background-color: blueviolet;
-    width: 100%;
 }
 
 .box{
@@ -62,35 +61,24 @@ body{
     transform: translate(-50%, -50%);
 
     background-color: rgb(255, 130, 40);
-    width: 880px;
-    height: 300px;
+    width: 500px;
+    height: 450px;
     border-radius: 15px;
-    padding: 4%;
+    padding: 1%;
+}
+
+.param{
+    display: flex; 
+    flex-direction: column; 
     text-align: center;
 }
 
-.p1{
-    width: 33%;
-    margin: 0 auto;
-    float: left;
-}
-
-.p2{
-    width: 33%;
-    margin: 0 auto;
-    float: left;
-}
-
-.p3{
-    width: 33%;
-    margin: 0 auto;
-    float: right;
-}
-
-#i1, #i2, #i3{
-    margin: 15px 58px;
-    height: 32px;
+#i1, #i2, #i3, #answer{
+    margin: 15px 15px;
+    height: 30px;
+    padding: 10px;
     border-radius: 8px;
+    text-align: center;
 }
 
 button{
@@ -101,6 +89,7 @@ button{
     font-family: 'HyliaSerif';
     font-size: larger;
     transition: 0.2s;
+    float: right;
 }
 
 button:hover{
