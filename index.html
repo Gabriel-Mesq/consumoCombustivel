@@ -29,19 +29,19 @@
     </header>
 
     <div class="box">
+        
         <div class="param">
-            <h1 class="p1">Distância (Km):</h1>
-            <h1 class="p2">Rendimento (Km/L):</h1>
-            <h1 class="p3">Preço (R$/L):</h1>
-            
-            <input name="Dist" id="i1"> 
-            <input name="Rend" id="i2"> 
-            <input name="Price" id="i3"> 
-
-            <button onclick="combustivel()">Calcular</button>
-            <h1>O valor a ser gasto é de: <input id="answer"></h1>
+            <h2>Distância (Km)</h2>
+            <input name="Dist" id="i1" onfocusout="combustivel()"> 
+            <h2>Rendimento (Km/L)</h2>
+            <input name="Rend" id="i2" onfocusout="combustivel()"> 
+            <h2>Preço (R$/L)</h2>
+            <input name="Price" id="i3"onfocusout="combustivel()"> 
 
         </div>
+        
+        <br>
+        <h1>Valor a ser gasto: <input id="answer"></h1>
     </div>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
